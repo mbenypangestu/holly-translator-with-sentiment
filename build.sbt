@@ -30,6 +30,9 @@ libraryDependencies += "org.typelevel" %% "cats-core" % "2.0.0"
 // Now, in any Scala file, you can import classes, objects, etc., from cats with
 // a regular import.
 libraryDependencies +=  "org.scalaj" %% "scalaj-http" % "2.4.2"
+libraryDependencies += "io.spray" %%  "spray-json" % "1.3.5"
+libraryDependencies += "org.json4s" %% "json4s-native" % "3.7.0-M1"
+libraryDependencies += "org.json4s" %% "json4s-jackson" % "3.7.0-M1"
 
 // TIP: To find the "dependency" that you need to add to the
 // `libraryDependencies` set, which in the above example looks like this:
